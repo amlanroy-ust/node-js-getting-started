@@ -10,7 +10,7 @@ app.set('port', (process.env.PORT || 5000));
 //app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.send('Hi Amlan!, You are Awesome.... I want more from You.)');
+  response.send('Hi Amlan!, You are Awesome.... I want more from You. Now lets do some extra ordinary.)');
 });
 
 app.listen(app.get('port'), function() {
